@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 LABEL author="Dmytro Novikov"
 USER root
-# comment
+# comment 1
 RUN \
   apt-get update && \
   apt-get -y install htop vim
